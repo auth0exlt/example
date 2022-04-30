@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: WebGen Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -143,7 +143,7 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
+    - name: France
       description: The main servers are located here.
       closed: true
     - name: Empty Category
@@ -159,13 +159,13 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: Gateway
-      category: North Coast
+      category: France
     - name: Backup Gateway
-      category: North Coast
+      category: France
     - name: Website
       description: The web frontend for the application.
       category: Uncategorized
-      link: https://example.com/
+      link: https://web-gen.cc
     - name: API
       description: The guts of the application.
       category: Uncategorized
